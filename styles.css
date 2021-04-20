@@ -1,0 +1,143 @@
+@font-face {
+    font-family: Akrobat-Bold;
+    src: url("Fonts/Akrobat-Bold.otf");
+}
+@font-face {
+    font-family: Akrobat-Regular;
+    src: url("Fonts/Akrobat-Regular.otf");
+}
+@font-face {
+    font-family: DIN-CONDENSED-BOLD;
+    src: url("Fonts/DIN-CONDENSED-BOLD.ttf");
+}
+@font-face {
+    font-family: Akrobat-Thin;
+    src: url("Fonts/Akrobat-Thin.otf");
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        height: 100vh;
+    }
+
+    #page {
+        background-size: contain !important;
+        background-position-y: 400px !important;
+    }
+    .header{
+        width: 100vh;
+    }
+}
+
+body {
+    overflow: hidden;
+    font-family: "Akrobat-Regular";
+    background-color: #2a4587;
+}
+
+
+#page {
+    background-image: url("img/Asset2.png");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: -webkit-inline-box;
+    float: right;
+    color: white;
+    padding: 0px 60px 20px 30px;
+    font-family: "Akrobat-Regular";
+    font-size: 1.1em!important;
+}
+.header img {
+    padding: 40px 18px 0px 10px;
+}
+.header h3 {
+    padding: 20px 60px;
+}
+
+.main {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: "Akrobat-Thin";
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 1.3em !important;
+}
+
+#data {
+    padding: 10px 0;
+    font-weight: 200;
+    font-size: 1.1em !important;
+    font-family: "Akrobat-Regular";
+}
+
+.patrocinadores {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 11px;
+    letter-spacing: 1.3px;
+}
+
+.titulo p{
+    display: inline;
+    padding: 10px 15px 10px 15px;
+}
+
+.patrocinadores img{
+    padding: 0 10px;    
+}
+
+button {
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+    margin-right: 40px;
+    font-family: "Akrobat-Regular";
+    font-size: 1.17em !important;
+}
+
+.button h3 {
+    border-color: white;
+    color: white;
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+    margin-right: 40px;
+    margin-top: 35px;
+    height: 7px;
+    width: 50px;
+    white-space: nowrap;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 6px 50px 25px 50px;
+    margin-left: 20px;
+}
+
+.main h2 {
+    margin-top: -1px;
+}
+
+a {
+    color: white !important;
+    text-decoration: none !important;
+    display: -webkit-inline-box;
+}
+
+
